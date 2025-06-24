@@ -212,7 +212,12 @@ SmartTube is developed single-handedly; there is no larger team or company behin
 
 ## Build
     
-**NOTE: OpenJDK 14 or older (!) is required. Newer JDK could cause app crash!**  
+**NOTE: OpenJDK 14 or older (!) is required. Newer JDK could cause app crash!**
+
+Ensure the `JAVA_HOME` environment variable points to your JDK installation so
+Gradle can locate the correct Java runtime.
+If you're using a fresh environment, run the provided `setup.sh` script to
+install the system packages required for building.
 To build and install debug version, run these commands:
 
 ```
